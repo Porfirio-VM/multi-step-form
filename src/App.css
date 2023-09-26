@@ -1,0 +1,23 @@
+#root{
+  width: 740px;
+}
+
+.step-form{
+  display: flex;
+  padding: 1rem;
+  height: 500px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+@media (max-width: 768px){
+    #root{
+      width: 80%;
+    }
+    .step-form{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      position: relative;
+    }
+}
